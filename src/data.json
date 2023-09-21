@@ -33,7 +33,8 @@
     { "id": 31, "name": "송강", "img": "./image/man_celeb/songkang.jpg" },
     { "id": 32, "name": "윤두준", "img": "./image/man_celeb/yoondoojun.jpg" },
     { "id": 33, "name": "손석구", "img": "./image/man_celeb/sonsukgu.jpg" },
-    { "id": 34, "name": "우도환", "img": "./image/man_celeb/woodohwan.jpg" }
+    { "id": 34, "name": "우도환", "img": "./image/man_celeb/woodohwan.jpg" },
+    { "id": 35, "name": "정국", "img": "./image/man_celeb/jungkook.jpg" }
   ],
   "여자 연예인": [
     { "id": 1, "name": "해린", "img": "./image/woman_celeb/hyelin.jpg" },
@@ -130,7 +131,7 @@
     { "id": 21, "name": "나무늘보", "img": "./image/animal/namuneulbo.jpg" },
     { "id": 22, "name": "패럿", "img": "./image/animal/parrot.jpg" },
     { "id": 23, "name": "코알라", "img": "./image/animal/koala.jpg" },
-    { "id": 24, "name": "하늘 다람쥐", "img": "./image/animal/sktsquirrel.jpg" },
+    { "id": 24, "name": "하늘 다람쥐", "img": "./image/animal/skysquirrel.jpg" },
     { "id": 25, "name": "미어캣", "img": "./image/animal/mearcat.jpg" }
   ]
 }
