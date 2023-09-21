@@ -1,0 +1,151 @@
+main{
+  width: 390px; 
+  height: 100vh;
+  background-color: #1ABCBE;
+  margin: 0 auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  .home{
+    background-image: url('../public/trophy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -65px;
+    h2{
+      margin:0;
+      padding-top: 80px;
+      font-size: 40px;
+      text-align: center;
+      color: #FFDB68;
+    }
+  
+    .buttons{
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
+      .category_button{
+          width: 160px;
+          margin: 20px auto;
+          padding: 8px 0;
+          border-radius: 20px;
+          border: none;
+          background-color: #ffffff;
+          font-size: 20px;
+          color: #1ABCBE;
+          font-weight: 500;
+          cursor: pointer;
+      }
+      > .button_detail{
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+        color: white;
+      }
+      > span{
+        width: 300px;
+        margin: 10px auto 40px;
+        border-bottom: 1px solid #ffffff;
+      }
+    }
+  }
+  
+
+  .versus{
+    width: 100%;
+    .icon{
+      display: block;
+      text-align: right;
+      padding: 20px;
+      color: white;
+      font-size: 32px;
+      cursor: pointer;
+    }
+    > h2{
+      margin:0;
+      padding-top: 40px;
+      font-size: 40px;
+      text-align: center;
+      color: #FFDB68;
+    }
+    .round{
+      text-align: center;
+      color: #ffffff;
+      font-size: 30px;
+      margin:40px 0;
+    }
+
+    .versus_box{
+        border: 1px solid #ffffff;
+        border-radius: 20px;
+        margin: 10px;
+        color: white;
+      .versus_item{
+        padding: 20px 10px 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between  ;
+
+        > li{ 
+          width: 50%;
+          list-style: none;
+          padding: 3px;
+          
+          > span{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            font-size: 20px;
+          }
+          > figure{
+            text-align: center;
+            width: 100%;
+            margin: 0;
+            cursor: pointer;
+            > img{
+              width: 170px;
+              height: 190px;
+              
+            }
+          }
+        }
+      }
+
+      > p{
+        margin: 0;
+        text-align: center;
+        margin-bottom: 30px;
+        > strong{
+          display: block;
+          font-size: 35px;
+          color: #FFDB68;
+        }
+        > span{}
+      }  
+    }
+
+  }
+
+  .insert{
+    
+    .insert_input{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      > input{
+        width: 100px;
+        border-radius: 20px;
+        padding: 10px 30px;
+        border: none;
+        margin: 10px;
+        text-align: center;
+      }
+    }
+    
+    
+  }
+
+  .winner{
+    h2{
+      margin: 0;
+      padding-top: 80px;
+    }
+  }
+}
