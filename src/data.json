@@ -34,7 +34,11 @@
     { "id": 32, "name": "윤두준", "img": "./image/man_celeb/yoondoojun.jpg" },
     { "id": 33, "name": "손석구", "img": "./image/man_celeb/sonsukgu.jpg" },
     { "id": 34, "name": "우도환", "img": "./image/man_celeb/woodohwan.jpg" },
-    { "id": 35, "name": "정국", "img": "./image/man_celeb/jungkook.jpg" }
+    { "id": 35, "name": "정국", "img": "./image/man_celeb/jungkook.jpg" },
+    { "id": 36, "name": "공유", "img": "./image/man_celeb/gongyou.jpg" },
+    { "id": 37, "name": "이동욱", "img": "./image/man_celeb/leedongwook.jpg" },
+    { "id": 38, "name": "안효섭", "img": "./image/man_celeb/annhyoseob.jpg" },
+    { "id": 39, "name": "김수현", "img": "./image/man_celeb/kimsoohyun.jpg" }
   ],
   "여자 연예인": [
     { "id": 1, "name": "해린", "img": "./image/woman_celeb/hyelin.jpg" },

@@ -10,6 +10,7 @@ function Winner() {
 
   return (
     <article className="winner">
+      <span class="material-symbols-outlined icon" onClick={()=>{ navigate('/'); }}>home</span>
         {winner && (
           <div className="winner_">
             <h2>Winner:</h2>

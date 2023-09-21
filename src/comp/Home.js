@@ -40,7 +40,7 @@ function Home() {
         handleCategoryClick('귀여운 동물') 
         navigate('/versus', {state:{category: '귀여운 동물'}})
         }}>귀여운 동물</button>
-        <p className="button_detail">※ 위 항목들은 모두 16강으로 이루어져있습니다.</p>
+        <p className="button_detail">☆ 위 항목들은 모두 16강으로 이루어져있습니다.</p>
         <span></span>
         <button className="category_button" onClick={()=>{ 
         navigate('/insert')
