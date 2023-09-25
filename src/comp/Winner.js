@@ -10,11 +10,11 @@ function Winner() {
 
   return (
     <article className="winner">
-      <span class="material-symbols-outlined icon" onClick={()=>{ navigate('/'); }}>home</span>
+      <span className="material-symbols-outlined icon" onClick={()=>{ navigate('/'); }}>home</span>
         {winner && (
-          <div className="winner_">
+          <div className="winner_detail">
             
-            <p>{winner.name}</p>
+            <h2>{winner.name}</h2>
             <figure><img src={`${winner.img}`}/></figure>
             <span>우승!</span>
           </div>

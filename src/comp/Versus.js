@@ -55,7 +55,7 @@ function Versus() {
 
   return (
     <article className="versus">
-      <span class="material-symbols-outlined icon" onClick={()=>{ navigate('/'); }}>home</span>
+      <span className="material-symbols-outlined icon" onClick={()=>{ navigate('/'); }}>home</span>
       <h2 className="category_title">{category}</h2>
       {length === 16 && <div className="round"> 16강 </div>}
       {length === 8 && <div className="round"> 8강 </div>}
