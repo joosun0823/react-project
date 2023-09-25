@@ -13,14 +13,13 @@ function Winner() {
       <span class="material-symbols-outlined icon" onClick={()=>{ navigate('/'); }}>home</span>
         {winner && (
           <div className="winner_">
-            <h2>Winner:</h2>
-            <p>Name: {winner.name}</p>
+            
+            <p>{winner.name}</p>
             <figure><img src={`${winner.img}`}/></figure>
             <span>우승!</span>
           </div>
         )}
 
-      <button onClick={()=>{ navigate('/')}}> 돌아가기 </button>
     </article>
   );
 }
