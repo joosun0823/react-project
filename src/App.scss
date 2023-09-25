@@ -30,15 +30,18 @@ main{
   background-color: #000000;
   margin: 0 auto;
   // font-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .home{
-    height: 100%;
+    // height: 100%;
     // background-image: url('../public/trophy2.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0;
     h2{
       margin:0;
-      padding-top: 40px;
+      // padding-top: 40px;
       font-size: 40px;
       text-align: center;
       color: #FFDB68;
@@ -48,6 +51,7 @@ main{
       display: flex;
       flex-direction: column;
       margin-top: 10px;
+      margin-bottom: 30px;
       .category_button{
           width: 160px;
           margin: 20px auto 5px;
