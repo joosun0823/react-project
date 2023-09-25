@@ -172,6 +172,14 @@ main{
         text-align: center;
       }
     }
+
+    > button{
+      display: block;
+      margin: 20px auto;
+      border-radius: 20px;
+      padding: 5px 15px;
+      background-color: #FFDB68;
+    }
     
     
   }
