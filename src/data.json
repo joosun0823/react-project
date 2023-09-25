@@ -137,5 +137,16 @@
     { "id": 23, "name": "코알라", "img": "./image/animal/koala.jpg" },
     { "id": 24, "name": "하늘 다람쥐", "img": "./image/animal/skysquirrel.jpg" },
     { "id": 25, "name": "미어캣", "img": "./image/animal/mearcat.jpg" }
+  ],
+  "커스텀": [
+    { "id": 1, "name":"" ,"img":"./image/insert/p1.jpg"},
+    { "id": 2, "name":"" ,"img":"./image/insert/p2.jpg"},
+    { "id": 3, "name":"" ,"img":"./image/insert/p3.jpg"},
+    { "id": 4, "name":"" ,"img":"./image/insert/p4.jpg"},
+    { "id": 5, "name":"" ,"img":"./image/insert/p5.jpg"},
+    { "id": 6, "name":"" ,"img":"./image/insert/p6.jpg"},
+    { "id": 7, "name":"" ,"img":"./image/insert/p7.jpg"},
+    { "id": 8, "name":"" ,"img":"./image/insert/p8.jpg"}
   ]
+
 }

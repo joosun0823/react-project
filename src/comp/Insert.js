@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { MyContext } from '../Context';
 
 function Insert() {
+  const {data} = useContext(MyContext);
   const [inputData, setInputData] = useState([
     {
       id: 1,
@@ -45,16 +47,29 @@ function Insert() {
     },
   ]);
 
+
+
+  useEffect(()=>{
+    setInputData(data["커스텀"])
+  },[])
+
+
   const navigate = useNavigate();
 
   const startGame = () => {
-    const updatedData = inputData.map((item) => ({
-      ...item,
-      name: item.name || '빈 이름',
-      img: '', 
-    }));
-
-    navigate('/versus', { state: { inputData: updatedData } });
+    // 모든 입력 필드가 비어 있지 않은지 확인하는 조건
+    if (inputData.every(item => item.name.trim() !== '')) {
+      const updatedData = inputData.map((item) => ({
+        ...item,
+        name: item.name || '빈 이름',
+        img: `${item.img}`, 
+      }));
+  
+      navigate('/versus', { state: { inputData: updatedData } });
+    } else {
+      // 모든 입력 필드가 채워지지 않았을 때 처리할 로직 추가
+      alert('모든 창을 채워주세요.');
+    }
   };
 
   const handleInputChange = (index, value) => {
