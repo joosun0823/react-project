@@ -81,6 +81,7 @@ function Insert() {
 
   return (
     <article className="insert">
+      <span className="material-symbols-outlined icon" onClick={()=>{ navigate('/'); }}>home</span>
       <div className="insert_input">
       {inputData.map((item, index) => (
         <input type="name"

@@ -158,7 +158,14 @@ main{
   }
 
   .insert{
-    
+    .icon{
+      display: block;
+      text-align: right;
+      padding: 20px;
+      color: white;
+      font-size: 32px;
+      cursor: pointer;
+    }
     .insert_input{
       display: flex;
       flex-wrap: wrap;
