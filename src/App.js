@@ -10,7 +10,7 @@ import Winner from './comp/Winner';
 
 function App() {
   return (
-    <BrowserRouter basename='/react-project'>
+    <BrowserRouter basename='/react-project/'>
         <MyContext>
           <main>
           <Routes>

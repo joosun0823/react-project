@@ -18,6 +18,9 @@ const limitCacheSize = (name, size)=>{
 }
 
 this.addEventListener('install', (event)=>{
+
+    console.log('install');
+
     event.waitUntil(
         caches.open(staticCacheName).then((cache)=>{
             console.log('Opend Cache')
@@ -27,6 +30,9 @@ this.addEventListener('install', (event)=>{
 })
 
 this.addEventListener('fetch', event => {
+
+    console.log('fetch');
+
     event.respondWith(
         caches.match(event.request).then(cacheRes=>{
             return cacheRes || fetch(event.request).then(fetchRes=>{
@@ -45,6 +51,9 @@ this.addEventListener('fetch', event => {
 })
 
 this.addEventListener('activate', event=>{
+
+    console.log('activate');
+
     event.waitUntil(
         caches.keys().then(keys => {
             return Promise.all(keys
